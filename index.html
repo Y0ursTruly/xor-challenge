@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="Find The Password">
+  <meta property="og:image" content="https://i.stack.imgur.com/Um72M.png">
+  <meta property="og:description" content="A puzzle in which one must utilise knowledge of XOR logic to flip bits of the OTP encryption key to find one that takes specific input and leads to specific output">
+  <title>Find The Password</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="https://i.stack.imgur.com/Um72M.png">
+</head>
+
+<body>
+  <h1>Find The Password</h1>
+  <br>
+  <p>"TEXT" in the first row is encrypted by an OTP key that is 4 characters or 32 bits long</p>
+  <p>Flip the bits in the second row until the XOR operation of the bits in the first 2 rows equals "WINS" in the third row</p>
+  <p>"WINS" in binary is "01010111 01001001 01001110 01010011"</p>
+  <br>
+  <script src="script.js"></script>
+</body>
+
+</html>
